@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(248, 241, 241, 0.582) !important;
+}
+
+.item{
+    width:100%; 
+    height: 100% !important;
+}
+
+/*Navbar Starts */
+
+.navbar-brand{
+   
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    overflow: hidden; /*need chane */
+}
+.navbar-brand:hover{
+    color:white;
+}
+
+.random{
+    overflow: hidden; /*need chane */
+    z-index:2;
+    position:fixed;
+    top:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:5vh;
+    max-height: 10vh;
+    background-color:#007D9E;
+    width:100%;
+    
+}
+
+.nav_links{
+    overflow: hidden;
+    /*need chane */
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    text-transform: uppercase;
+    font-weight:60;
+ 
+}
+
+.nav_links a{
+    overflow: hidden;
+  text-decoration: none;
+  padding: .2rem;
+
+}
+
+.nav_links li{
+    overflow: hidden;
+ font-family: 'Open Sans', sans-serif;
+ margin-top: 1rem;   
+ color:rgb(255, 255, 255);
+ font-size: 12px;
+ letter-spacing: 1px;
+ font-weight: bold !important;
+ list-style: none;
+ display: inline;
+ 
+
+}
+
+.dropdown-container{
+    overflow: hidden;
+    display: inline;
+    position: relative;
+    padding: .2rem;
+
+    
+}
+.dropdown-content {
+    
+    position:fixed;
+    background-color:#007D9E !important;
+    color: black;
+    margin-top: .5%;
+    margin-bottom: .5%;
+    display: none;
+    
+}
+
+.hov{
+    opacity: 1;
+ ;
+}
+.dropdown-content a{
+    display:inline-block;/*vertical thakbe elements*/
+    color: black !important;
+    padding:.6rem;
+    border-radius: 50%;
+
+    
+}
+
+.dropdown-container:hover .dropdown-content{
+    display: block;
+    
+}
+
+
+.hov:hover {
+    
+    opacity:1;
+    color: rgb(0, 0, 0);
+   
+
+}
+.work{
+    padding:20px;
+}    
+.work:hover {
+    color:rgb(0, 0, 0);
+    background-color: #fafeff;
+    
+}
+
+
+/*Navbar Ends*/
+
+/*Carousel work */
+
+.carousel .item{
+    margin-top: 2.0%;
+    
+   
+}
+.carousel{
+    height:370px;
+    overflow: hidden;
+}
+/*Carousel Ends */
+
+
+
+/*middle part */
+
+.notice{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+    background-color: #007D9E;
+    border-radius: 50px;
+    padding: .5%;
+    color:white;
+    font-weight: bold;
+    margin-right: 1%;
+    word-spacing: .4em;
+    overflow:hidden !important;
+}
+
+
+.colum2{
+    text-align:right;
+}
+
+.wrap{
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bold;
+    overflow:hidden !important;
+}
+
+.wrapper .button{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    overflow: hidden;
+    background:#b7dce6;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+    overflow:hidden !important;
+  }
+  .wrapper .button:hover{
+    width: 200px;
+    overflow:hidden !important;
+  }
+  .wrapper .button .icon{
+    display:inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 20px; 
+    transition: all 1s ease-out;
+    font-family: 'Open Sans', sans-serif !important;
+    overflow:hidden !important;
+  }
+  .wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+    margin-bottom: -12px;
+  }
+  .wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+    margin-bottom: -12px;
+  }
+  .wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+    margin-bottom: -12px;
+  }
+  .wrapper .button:nth-child(4):hover .icon{
+    background: #333;
+    margin-bottom: -12px;
+  }
+  .wrapper .button:nth-child(5):hover .icon{
+    background: #ff0000;
+    margin-bottom: -90%;
+  }
+  .wrapper .button .icon i{
+    font-size: 26px;
+    line-height: 40px;
+    transition: all .8s ease-out;
+    margin-left: 4%;
+    
+   
+  }
+  .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  .wrapper .button span{
+    font-size: 14px;
+    font-weight: bolder;
+    transition: all 0.3s ease-out;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 0;
+    line-height: 20px;
+   
+  }
+  .wrapper .button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .wrapper .button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .wrapper .button:nth-child(4) span{
+    color: #333;
+  }
+  .wrapper .button:nth-child(5) span{
+    color: #ff0000;
+  }
+  
+
+/* middle part */
+/* footer */
+.footer {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #004A60 !important;
+    width: 100%;
+    color: #f0fff0 !important;
+    margin-right: 0%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    padding-bottom: 1%;
+  }
+  .column{
+    width:50%;
+    float:left;
+    padding-left:2%;
+    padding-right: 2%;
+}
+
+
+.buttons {
+    border-radius: 4px;
+    background-color:#007D9E;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 420px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+  }
+  
+  .buttons span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttons span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttons:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttons:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .row2{
+      margin-top: 4%;
+      display: flex;
+      justify-content: center;
+      
+
+  }
+ 
+
+  .row4{
+      margin-top: 4%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 6%;
+  }
