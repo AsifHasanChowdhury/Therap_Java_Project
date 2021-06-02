@@ -24,7 +24,7 @@
     text-align: center;
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0s opacity 0.5s;
+    transition: visibility 0s opacity 0.9s;
 
   }
 
@@ -33,7 +33,7 @@
     opacity:1;
 }
   .modal{
-    background-color:#71d1ec;
+    background-color: #AFEEEE;
     margin-top: 5%;
     z-index: 2;
     border-radius: 10px;
@@ -431,7 +431,7 @@
 }
 
 .modal-close:hover{
-    background-color: #f80808;
+    background-color: #e63a3a;
     color: #fafeff;
 }
 
@@ -441,7 +441,15 @@
 }
 
 .placeholder{
-    width:50%;
+    width:60%;
     height: 5.5%;
     border-radius: 4px;
+}
+.modal .close-button{
+font-size:xx-large;
+
+cursor: pointer;
+top:0;
+right:0;
+/*display: none;*/
 }
