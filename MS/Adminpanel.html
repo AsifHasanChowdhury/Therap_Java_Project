@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Therap JAVA Admin Panel
+    </title>
+
+
+    <link rel="shortcut icon" type="image/png" href="accusoft-brands.svg">
+
+    <link rel="stylesheet" href="jswork.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/26f3072640.js" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+
+
+ <!--Navbar Starts Here-->
+ <nav class="random">
+      
+    <div class="burgers">
+      <div class="line1" style="margin-top: 4px; height:2px"></div>
+      <div class="line1"></div>
+      <div class="line1"></div>
+    </div>
+    <a class="navbar-brand" href="#">
+      <i class="fas fa-stethoscope" style="width:30 ;height:30 ;color:rgb(17, 245, 207)"></i>
+      Hospital Management 
+    </a>
+
+    <ul class="nav_links">
+      
+      <a href="#">
+        <li class="work">HOME</li>
+      </a>
+      <a href="#">
+        <li class="work">ABOUT US</li>
+      </a>
+      <a href="#">
+        <li class="work">SPECIALITIES</li>
+      </a>
+      <a href="#">
+        <li class="work">FOR PATIENTS</li>
+      </a>
+      <a href="#">
+        <li class="work">FOR DOCTOR</li>
+      </a> 
+     <div class="dropdown-container" >
+       <a href="#">
+      <li class="work"> <i class="fas fa-caret-down"></i> NEWS & MEDIA</li>
+      </a>
+      <div class="dropdown-content" >
+        <a href="#">
+        <li class="hov"> OUR OTHER SERVICES</li>
+        </a>
+        <a href="#">
+        <li class="hov"> CONTACT US</li>
+        </a>
+        <a href="#">
+        <li class="hov"> FUNDS & DONATION</li>
+        </a>
+      </div>
+     </div>
+    
+    </ul>
+  </nav>
+
+<!--Navbar Ends Here-->
+
+
+    <!--common work-->
+
+
+    <div class="row2">
+
+      <div class="col21">
+        <button class="buttons">
+          <div class="icon">
+            <i class="fas fa-stethoscope"></i>
+          </div>
+          <span>Check Hospital Admission Request </span>
+        </button>
+      </div>
+
+      <div class="col22">
+        <button class="buttons">
+          <div class="icon">
+            <i class="fas fa-user-nurse"></i>
+          </div>
+          <span>Check  doctor Admission </span>
+        </button>
+      </div>
+
+      <div class="col24">
+        <button class="buttons">
+          <div class="icon">
+            <i class="fas fa-procedures"></i>
+          </div>
+          <span> Check Ambulance Hire Request </span>
+        </button>
+      </div>
+
+    </div>
+
+
+    <div class="row4">
+      <div class="col21">
+        <button class="buttons working">
+          <div class="icon">
+            <i class="fas fa-clinic-medical"></i>
+          </div>
+          <span> Add Hospital Information </span>
+        </button>
+      </div>
+      <div class="col22">
+        <button class="buttons working2">
+          <div class="icon">
+            <i class="fas fa-user-md"></i>
+          </div>
+          <span> Add Doctor Information </span>
+        </button>
+      </div>
+      <div class="col24">
+        <button class="buttons working4">
+          <div class="icon">
+            <i class="fas fa-ambulance"></i>
+          </div>
+          <span> Add Ambulance Information </span>
+        </button>
+      </div>
+    </div>
+
+    
+ <!--Common Work-->
+
+ <form action="#">
+<!-- Main Modal 1 done-->
+    <div class="modal-bg">
+        <div class="modal">
+        
+            <h2 style="margin-top: 5%;">Admit process</h2>
+
+          <label for="name" > Patient Name </label>
+          <input class="placeholder" type="text" name="name">
+
+          <label for="name" > Patient Sickness Detail </label>
+          <input class="placeholder" type="text" name="sickness info">
+
+          <label for="name" > Patient Contact No </label>
+          <input  class="placeholder" type="text" name="sickness info">
+
+          <label for="name" > Blood Group </label>
+          <input  class="placeholder" type="text" name="sickness info">
+
+          <p>Please select your gender</p>
+          <div class="radiowork">
+          <input class="radiobox"  type="radio" id="male" name="gender" value="male">
+          <label  class="radiolabel" for="male">Male</label><br>
+          <input class="radiobox"  type="radio" id="female" name="gender" value="female">
+          <label class="radiolabel" for="female" >Female</label><br>
+          <input class="radiobox"  type="radio" id="other" name="gender" value="other">
+          <label class="radiolabel" for="other">Other</label>
+          </div>
+          <div class="button-handle">
+          <button class="modal-closepart"> Request for process</button>
+          <button class="modal-close"> Close The Tab</button>
+        </div>
+        
+        </div>
+      </div>
+    </form>
+  
+<!-- internal second modal starts -->
+    <div class="modal-bgs">
+    <div class="modal1">
+        <h2 style="margin-top: 5%;"> Wait for confirmation Apply Successful</h2>
+        <div class="tickmark">
+        <i class="fas fa-check-circle"></i>
+      </div>
+        <div class="button-handle">
+          <button class="modal-closes"> Close The Tab</button>
+        </div>
+
+    </div>
+    </div>
+
+<!--internal second modal ends -->
+
+<!-- Main Modal 1 done-->
+
+<!-- Main modal 2 starts-->
+<form action="#">
+<!-- Main Modal 2 starts-->
+<div class="modal-bg2">
+  <div class="modal2">
+  
+      <h2 style="margin-top: 5%;">Doctor Appointment</h2>
+
+    <label for="name" > Patient Name </label>
+    <input class="placeholder" type="text" name="name">
+
+    <label for="name" > Patient Sickness Detail </label>
+    <input class="placeholder" type="text" name="sickness info">
+
+    <label for="name" > Patient Contact No </label>
+    <input  class="placeholder" type="text" name="sickness info">
+
+
+    <p>Please select your gender</p>
+    <div class="radiowork">
+    <input class="radiobox"  type="radio" id="male" name="gender" value="male">
+    <label  class="radiolabel" for="male">Male</label><br>
+    <input class="radiobox"  type="radio" id="female" name="gender" value="female">
+    <label class="radiolabel" for="female" >Female</label><br>
+    <input class="radiobox"  type="radio" id="other" name="gender" value="other">
+    <label class="radiolabel" for="other">Other</label>
+    </div>
+    <div class="button-handle">
+    <button class="modal-closepart2"> Request for process</button>
+    <button class="modal-close2"> Close The Tab</button>
+  </div>
+
+  </div>
+</div>
+</form>
+
+<!-- internal second modal starts -->
+<div class="modal-bgs2">
+<div class="modal12">
+  <h2 style="margin-top: 5%;"> Wait for confirmation Apply Successful</h2>
+  <div class="tickmark">
+  <i class="fas fa-check-circle"></i>
+</div>
+  <div class="button-handle">
+    <button class="modal-closes2"> Close The Tab</button>
+  </div>
+
+</div>
+</div>
+
+<!--second modal ends -->
+
+<!-- Main Modal 2 done-->
+
+
+<!-- Main modal 4 starts-->
+<form action="#">
+  
+  <div class="modal-bg4">
+    <div class="modal-4">
+    
+        <h2 style="margin-top: 5%;">Hire Ambulance</h2>
+  
+      <label for="name" > Patient Name </label>
+      <input class="placeholder" type="text" name="name">
+  
+      <label for="name" > Patient Sickness Detail </label>
+      <input class="placeholder" type="text" name="sickness info">
+  
+      <label for="name" > Patient Attendee Contact </label>
+      <input  class="placeholder" type="text" name="sickness info">
+  
+  
+      <p>Please select your gender</p>
+      <div class="radiowork">
+      <input class="radiobox"  type="radio" id="male" name="gender" value="male">
+      <label  class="radiolabel" for="male">Male</label><br>
+      <input class="radiobox"  type="radio" id="female" name="gender" value="female">
+      <label class="radiolabel" for="female" >Female</label><br>
+      <input class="radiobox"  type="radio" id="other" name="gender" value="other">
+      <label class="radiolabel" for="other">Other</label>
+      </div>
+      <div class="button-handle">
+      <button class="modal-closepart4"> Request for process</button>
+      <button class="modal-close4"> Close The Tab</button>
+    </div>
+  
+    </div>
+  </div>
+  </form>
+  
+  <!-- internal second modal starts -->
+
+<div class="modal-bgs4">
+  <div class="modal14">
+    <h2 style="margin-top: 5%;"> Wait for confirmation Apply Successful</h2>
+    <div class="tickmark">
+    <i class="fas fa-check-circle"></i>
+  </div>
+    <div class="button-handle">
+      <button class="modal-closes4"> Close The Tab</button>
+    </div>
+  
+  </div>
+  </div>
+  
+  <!--last modal ends -->
+  
+  <!-- Main Modal 4 done-->
+  
+    <!--Footer starts-->
+
+    <style>
+      .footer {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         background-color: red;
+         color: white;
+         text-align: center;
+      }
+      </style>
+      </head>
+      <body>
+     
+      <div class="footer">
+        <div class="row">
+          <div class="column">
+            <p style="margin-top: 1rem; color:rgb(250, 250, 250); font-weight: bolder;"> &copy; Copyright 2018 | All rights reserved. Hospital Management System.
+            </p> 
+            <!--html entities dite "&copy;" use korbo-->
+            
+          </div>
+          <div class="column colum2">
+              
+            <p style="margin-top: 1rem; color:rgb(250, 250, 250); font-weight: bolder">  
+              <i class="fab fa-canadian-maple-leaf"></i>
+              Powered by Asif Hasan & Junayed Rahman
+            </p>
+           
+          </div>
+        </div>
+  
+      </div>
+
+  <!--
+    <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="column">
+              <p style="margin-top: 1rem; color:rgb(250, 250, 250); font-weight: bolder;"> &copy; Copyright 2018 | All rights reserved. Hospital Management System.
+              </p> 
+              html entities dite "&copy;" use korbo
+              
+            </div>
+            <div class="column colum2">
+                
+              <p style="margin-top: 1rem; color:rgb(250, 250, 250); font-weight: bolder">  
+                <i class="fab fa-canadian-maple-leaf"></i>
+                Powered by Asif Hasan & Junayed Rahman
+              </p>
+             
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    -->
+  <script src="Admin.js"></script>
+      <!--footer ends--> 
+</body>
+</html>
