@@ -27,6 +27,8 @@
     transition: visibility 0s, opacity 1s;
 
   }
+
+  
   .modal-bgs{
     
     font-family: 'Open Sans', sans-serif;
@@ -168,6 +170,8 @@
   }
 
   /*modal 2 ends here*/
+
+ 
 
 /*carousel css */
   .item{
@@ -651,3 +655,383 @@ color: #fafeff;
   color: #fafeff;
 }
 
+
+
+
+
+ /*last modal starts */
+ .modal-bg4{
+    
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  z-index: 1;
+  overflow: hidden;
+  position:fixed;
+  width:100%;
+  height: 100vh;
+  bottom:0;
+  left:0;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 1s;
+
+}
+.modal-bgs4{
+  
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  z-index: 1;
+  overflow: hidden;
+  position:fixed;
+  width:100%;
+  height: 100vh;
+  bottom:0;
+  left:0;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity .5s;
+
+}
+.bg-active4{
+  visibility:visible;
+  opacity:1;
+}
+.bgs-active4{
+visibility:visible;
+opacity:1;
+}
+.modal-4{
+  background-color: #AFEEEE;
+  margin-top: 5%;
+  z-index: 2;
+  border-radius: 10px;
+  width:40%;
+  height:80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:space-between;
+  
+}
+
+.modal14{
+  background-color: #355f5f;
+  margin-top: 5%;
+  z-index: 2;
+  border-radius: 10px;
+  width:40%;
+  height:50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:space-between;
+  color:#b7dce6;
+  
+}
+
+
+
+.modal-closepart4{
+  border: none;
+  padding:12px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-right: 5px;
+  margin-bottom: 4%;
+  font-weight: 600;
+}
+
+.modal-close4{
+  border: none;
+  padding:12px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-bottom: 4%;
+  font-weight: 600;
+
+}
+.modal-closes4{
+border: none;
+padding:12px;
+background-color: #ffffff;
+text-transform: uppercase;
+border-radius: 4px;
+margin-bottom: 4%;
+font-weight: 600;
+
+}
+.modal-close4:hover{
+  background-color: #e63a3a;
+  color: #fafeff;
+}
+.modal-closes4:hover{
+background-color: #e63a3a;
+color: #fafeff;
+}
+
+.modal-closepart4:hover{
+  background-color: #5cc219;
+  color: #fafeff;
+}
+/*last modal Ends */
+
+
+
+
+
+
+/*work modal */
+.modal-bgwork1{
+    
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  z-index: 1;
+  overflow: hidden;
+  position:fixed;
+  width:100%;
+  height: 100vh;
+  bottom:0;
+  left:0;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 1s;
+
+}
+
+.modalwork1{
+  background-color: #AFEEEE;
+  margin-top: 5%;
+  z-index: 2;
+  border-radius: 10px;
+  width:40%;
+  height:80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:space-between;
+  
+}
+.bgwork1-active{
+  visibility:visible;
+  opacity:1;
+}
+
+
+.modal-closepart8{
+  border: none;
+  padding:12px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-right: 5px;
+  margin-bottom: 4%;
+  font-weight: 600;
+}
+
+.modal-close8{
+  border: none;
+  padding:12px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-bottom: 4%;
+  font-weight: 600;
+
+}
+
+.modal-close8:hover{
+  background-color: #e63a3a;
+  color: #fafeff;
+}
+
+
+.modal-closepart8:hover{
+  background-color: #5cc219;
+  color: #fafeff;
+}
+
+
+.placeholder1{
+  margin-top: -20%;
+  width:60%;
+  height: 5.5%;
+  border-radius: 4px;
+}
+
+
+/*Doctor modal */
+
+
+.modal-bgwork2{
+    
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  z-index: 1;
+  overflow: hidden;
+  position:fixed;
+  width:100%;
+  height: 100vh;
+  bottom:0;
+  left:0;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 1s;
+
+}
+
+.modalwork2{
+  background-color: #AFEEEE;
+  margin-top: 5%;
+  z-index: 2;
+  border-radius: 10px;
+  width:40%;
+  height:80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:space-between;
+  
+}
+.bgwork2-active{
+  visibility:visible;
+  opacity:1;
+}
+
+
+.modal-closepart9{
+  border: none;
+  padding:12px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-right: 5px;
+  margin-bottom: 4%;
+  font-weight: 600;
+}
+
+.modal-close9{
+  border: none;
+  padding:12px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-bottom: 4%;
+  font-weight: 600;
+
+}
+
+.modal-close9:hover{
+  background-color: #e63a3a;
+  color: #fafeff;
+}
+
+
+.modal-closepart9:hover{
+  background-color: #5cc219;
+  color: #fafeff;
+}
+
+/*Doctor modal */
+
+
+
+/*Ambulance modal */
+
+
+.modal-bgwork4{
+    
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  z-index: 1;
+  overflow: hidden;
+  position:fixed;
+  width:100%;
+  height: 100vh;
+  bottom:0;
+  left:0;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 1s;
+
+}
+
+.modalwork4{
+  background-color: #AFEEEE;
+  margin-top: 5%;
+  z-index: 2;
+  border-radius: 10px;
+  width:40%;
+  height:80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content:space-between;
+  
+}
+.bgwork4-active{
+  visibility:visible;
+  opacity:1;
+}
+
+
+.modal-closepart10{
+  border: none;
+  padding:12px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-right: 5px;
+  margin-bottom: 4%;
+  font-weight: 600;
+}
+
+.modal-close10{
+  border: none;
+  padding:12px;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-bottom: 4%;
+  font-weight: 600;
+
+}
+
+.modal-close10:hover{
+  background-color: #e63a3a;
+  color: #fafeff;
+}
+
+
+.modal-closepart10:hover{
+  background-color: #5cc219;
+  color: #fafeff;
+}
+
+/*Ambulance modal */
