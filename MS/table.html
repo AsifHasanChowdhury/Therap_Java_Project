@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<link rel="shortcut icon" type="image/png" href="accusoft-brands.svg">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -11,6 +12,8 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="table.css">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/26f3072640.js" crossorigin="anonymous"></script>
 <style></style>
 <body>
 
@@ -41,13 +44,58 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-<div class="container-xl">
+	<!--Navbar Starts Here-->
+	<nav class="random">
+      
+		<a class="navbar-brand" href="#">
+		  <i class="fas fa-stethoscope" style="width:30 ;height:30 ;color:rgb(17, 245, 207)"></i>
+		  Hospital Management 
+		</a>
+	
+		<ul class="nav_links">
+		  
+		  <a href="#">
+			<li class="work">HOME</li>
+		  </a>
+		  <a href="#">
+			<li class="work">ABOUT US</li>
+		  </a>
+		  <a href="#">
+			<li class="work">SPECIALITIES</li>
+		  </a>
+		  <a href="#">
+			<li class="work">FOR PATIENTS</li>
+		  </a>
+		  <a href="#">
+			<li class="work">FOR DOCTOR</li>
+		  </a> 
+		 <div class="dropdown-container" >
+		   <a href="#">
+		  <li class="work"> <i class="fas fa-caret-down"></i> Check User view</li>
+		  </a>
+		  <div class="dropdown-content" >
+			<a href="index.html">
+			<li class="hov"> User Panel</li>
+			</a>
+			<a href="#">
+			<li class="hov"> CONTACT US</li>
+			</a>
+			<a href="#">
+			<li class="hov"> FUNDS & DONATION</li>
+			</a>
+		  </div>
+		 </div>
+		
+		</ul>
+	  </nav>
+	
+<div class="container-xl" style="margin-top: 10px;">
 	<div class="table-responsive">
 		<div class="table-wrapper">
 			<div class="table-title">
 				<div class="row">
 					<div class="col-sm-6">
-						<h2>Manage <b>Employees</b></h2>
+						<h2>Manage <b>Request</b></h2>
 					</div>
 					<div class="col-sm-6">
 						<a href="#addEmployeeModal" class="btn btn-success"> <span>Admin Panel</span></a>
@@ -261,5 +309,38 @@ $(document).ready(function(){
 		</div>
 	</div>
 </div>
+<style>
+	.footer {
+	   position: fixed;
+	   left: 0;
+	   bottom: 0;
+	   width: 100%;
+	   background-color: red;
+	   color: white;
+	   text-align: center;
+	}
+	</style>
+
+	<div class="footer">
+	  <div class="row">
+		<div class="column">
+		  <p style="margin-top: 1rem; color:rgb(250, 250, 250); font-weight: bolder; float: left;"> &copy; Copyright 2018 | All rights reserved. Hospital Management System.
+		  </p> 
+		  <!--html entities dite "&copy;" use korbo-->
+		  
+		</div>
+		<div class="column colum2">
+			
+		  <p style="margin-top: 1rem; color:rgb(250, 250, 250); font-weight: bolder">  
+			<i class="fab fa-canadian-maple-leaf"></i>
+			Powered by Asif Hasan & Junayed Rahman
+		  </p>
+		 
+		</div>
+	  </div>
+
+	</div>
+
+
 </body>
 </html>
