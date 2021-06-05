@@ -75,6 +75,9 @@ internalmodalBg2.classList.remove('bgs-active2','bg-active2');
 });
 
 
+
+
+
 /*owl carousel */
 $('.owl-carousel').owlCarousel({
       loop:true,
@@ -96,3 +99,113 @@ $('.owl-carousel').owlCarousel({
           }
       }
       })
+
+
+
+//repeat same code Again
+
+
+var modalBtn4= document.querySelector('.working4');
+var modalBg4= document.querySelector('.modal-bg4');
+var modalClose4= document.querySelector('.modal-close4', '.close-button4');
+
+modalBtn4.addEventListener('click', function(){
+modalBg4.classList.add('bg-active4');
+
+
+
+});
+
+modalClose4.addEventListener('click', function(){
+modalBg4.classList.remove('bg-active4');
+
+
+});
+
+var internalmodalBtn4=document.querySelector('.modal-closepart4');
+var internalmodalBg4= document.querySelector('.modal-bgs4','modal-bg4');
+var internalmodalClose4= document.querySelector('.modal-closes4','modal-close4');
+
+internalmodalBtn4.addEventListener('click', function(){
+internalmodalBg4.classList.add('bgs-active4');
+modalBg4.classList.remove('bg-active4');
+
+
+
+
+});
+
+internalmodalClose4.addEventListener('click', function(){
+internalmodalBg4.classList.remove('bgs-active4','bg-active4');
+
+
+});
+
+
+//check part js
+//repeat same code Again
+
+
+var modalBtn6= document.querySelector('.checkwork1');
+var modalBg6= document.querySelector('.modal-bgwork1');
+var modalClose6= document.querySelector('.modal-close8');
+
+modalBtn6.addEventListener('click', function(){
+modalBg6.classList.add('bgwork1-active');
+
+
+
+});
+
+modalClose6.addEventListener('click', function(){
+modalBg6.classList.remove('bgwork1-active');
+
+
+});
+
+
+
+//check part js
+//repeat same code Again
+
+
+var modalBtn8= document.querySelector('.checkwork2');
+var modalBg8= document.querySelector('.modal-bgwork2');
+var modalClose8= document.querySelector('.modal-close9');
+
+modalBtn8.addEventListener('click', function(){
+modalBg8.classList.add('bgwork2-active');
+
+
+
+});
+
+modalClose8.addEventListener('click', function(){
+modalBg8.classList.remove('bgwork2-active');
+
+
+});
+
+
+
+
+//check part js
+//repeat same code Again
+
+
+var modalBtn10= document.querySelector('.checkwork4');
+var modalBg10= document.querySelector('.modal-bgwork4');
+var modalClose10= document.querySelector('.modal-close10');
+
+modalBtn10.addEventListener('click', function(){
+modalBg10.classList.add('bgwork4-active');
+
+
+
+});
+
+modalClose10.addEventListener('click', function(){
+modalBg10.classList.remove('bgwork4-active');
+
+
+});
